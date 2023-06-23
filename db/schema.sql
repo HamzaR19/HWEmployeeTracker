@@ -1,9 +1,9 @@
-DROP DATABASE IF EXISTS spiderman_db;
+DROP DATABASE IF EXISTS nba_db;
 
-CREATE DATABASE spiderman_db;
+CREATE DATABASE nba_db;
 
 
-USE spiderman_db;
+USE nba_db;
 
 CREATE TABLE departments (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
