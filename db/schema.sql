@@ -5,7 +5,7 @@ CREATE DATABASE spiderman_db;
 
 USE spiderman_db;
 
-CREATE TABLE department (
+CREATE TABLE departments (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(30)
 
