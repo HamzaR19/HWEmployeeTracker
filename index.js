@@ -107,3 +107,42 @@ function start() {
     });
 }
 
+//  View all departments
+function viewDepartments() {
+  connection.query('SELECT * FROM departments', (err, res) => {
+    if (err) throw err;
+    console.table(res);
+    start();
+  });
+}
+
+//  View all roles
+function viewRoles() {
+  connection.query(
+    `SELECT roles.role_id, roles.title, roles.salary, departments.department_name AS department FROM roles LEFT JOIN departments ON roles.department_id = departments.department_id`,
+    (err, res) => {
+      if (err) throw err;
+      console.table(res);
+      start();
+    }
+  );
+}
+//  View all employees
+function viewEmployees() {
+  connection.query(
+    `SELECT employees.employee_id, employees.first_name, employees.last_name, roles.title, departments.department_name AS department, roles.salary, CONCAT(managers.first_name, ' ', managers.last_name) AS manager
+    FROM employees
+    LEFT JOIN roles ON employees.role_id = roles.role_id
+    LEFT JOIN departments ON roles.department_id = departments.department_id
+    LEFT JOIN employees AS managers ON employees.manager_id = managers.employee_id`,
+    (err, res) => {
+      if (err) throw err;
+      console.table(res);
+      start();
+    }
+  );
+}
+
+
+
+
