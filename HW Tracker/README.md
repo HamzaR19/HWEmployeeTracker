@@ -39,7 +39,7 @@ Not accepting contributions at this time
 
 ## Walkthrough Video
 
-[link to video]https://www.youtube.com/watch?v=t9WFOnPwON8
+[Link to video]https://www.youtube.com/watch?v=t9WFOnPwON8
 
 ## License
 
