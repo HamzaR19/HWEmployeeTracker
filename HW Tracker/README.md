@@ -29,6 +29,7 @@ A Content Management System solution for managing a company's employees using No
 Open your terminal in VSCODE and in the terminal type in npm i, and then enter. This will load the packages required for the application to run.Load the application using Node Index.js.
 
 ## Usage Information
+<img width="948" alt="12-sql-homework-demo-01" src="https://github.com/HamzaR19/HWEmployeeTracker/assets/132932060/cb0797a7-9dcb-4416-98f1-740dc82961dd">
 
 It is used to organize and manage employees
 
