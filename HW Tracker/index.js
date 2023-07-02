@@ -1,10 +1,12 @@
 // const connection = require('./config/connection');
 const inquirer = require('inquirer');
+// const happy = require('./controllers')
 var figlet = require("figlet");
 
-figlet("Hello World!!", function (err, data) {
+
+figlet("Employee Tracker App!!", function (err, data) {
   if (err) {
-    console.log("Something went wrong...");
+    console.log("Something is Wrong :(");
     console.dir(err);
     return;
   }
