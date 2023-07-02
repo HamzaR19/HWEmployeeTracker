@@ -1,6 +1,8 @@
 // const connection = require('./config/connection');
 const inquirer = require('inquirer');
 // const happy = require('./controllers')
+
+// require figlet
 var figlet = require("figlet");
 
 
