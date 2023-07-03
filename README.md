@@ -36,11 +36,11 @@ It is used to organize and manage employees
 
 ## Features
 
-View departments, roles, employees
-Add departments, roles, employees
-Update employee roles
-View,update and delete managers
-View department budgets
+* View departments, roles, employees
+* Add departments, roles, employees
+* Update employee roles
+* View,update and delete managers
+* View department budgets
 
 
 ## Walkthrough Video
