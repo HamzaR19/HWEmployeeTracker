@@ -27,10 +27,11 @@ I hope you enjoy!
 
 ## Installation
 
-Open your terminal in VSCODE and in the terminal type in npm i, and then enter. This will load the packages required for the application to run.Load the application using Node Index.js.
+Open your terminal in VSCODE and in the terminal type in npm i, and then enter. This will load the packages required for the application to run. Load the application using Node Index.js within terminal.
 
 ## Usage Information
-<img width="948" alt="12-sql-homework-demo-01" src="https://github.com/HamzaR19/HWEmployeeTracker/assets/132932060/cb0797a7-9dcb-4416-98f1-740dc82961dd">
+
+![20230703_145202](https://github.com/HamzaR19/HWEmployeeTracker/assets/132932060/30792873-7b7e-45b5-9c19-70a2f4894c1d)
 
 It is used to organize and manage employees
 
