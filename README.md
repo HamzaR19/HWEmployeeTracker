@@ -22,7 +22,8 @@
 
 ## Description
 
-A Content Management System solution for managing a company's employees using Node.js, the Inquirer npm package and a MySQL database. A bootcamp coding assignment, my challenge was to build this app from scratch with only a MySQL schema as reference. Application also utilizes the following NPM packages: Inquierer, Figlet, Mysql2.
+A solution for managing a company's employees using Node.js, the Inquirer npm package and a MySQL database. I built this app to help employer's track and manage their business and their employee's within. The application also utilizes the following NPM packages: Inquierer, Figlet, Mysql2.
+I hope you enjoy!
 
 ## Installation
 
@@ -40,7 +41,7 @@ Not accepting contributions at this time
 
 ## Walkthrough Video
 
-[Link to video]https://www.youtube.com/watch?v=t9WFOnPwON8
+[Link to video](https://www.youtube.com/watch?v=t9WFOnPwON8)
 
 ## License
 
